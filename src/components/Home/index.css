@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.home-container-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.light-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 1140px;
+}
+.dark-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  width: 1140px;
+}
+.home-image {
+  width: 250px;
+}
+.light-heading {
+  color: black;
+}
+.dark-heading {
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .home-image {
+    width: 100px;
+  }
+}

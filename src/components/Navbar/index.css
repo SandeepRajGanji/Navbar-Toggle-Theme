@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+.nav-item-light-container {
+  width: 1140px;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: center;
+}
+.nav-item-dark-container {
+  width: 1140px;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+.nav-menu-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .nav-items-container {
+    max-width: 768px;
+  }
+  .nav-menu-container {
+    width: 90%;
+  }
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link-light {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 600;
+  color: #171f46;
+}
+.nav-link-dark {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 600;
+  color: #dcdcdc;
+}
+.nav-logo {
+  width: 60px;
+  height: 60px;
+}
+.nav-theme-image {
+  width: 40px;
+  height: 40px;
+}
+.toggle-button {
+  border: 0px;
+  background-color: transparent;
+}
